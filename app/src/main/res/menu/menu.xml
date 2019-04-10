@@ -1,0 +1,32 @@
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:foreground="@color/colorAccent"
+    tools:context=".activity_login"
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:title="Configuração"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sair"
+        android:title="sair"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_termodeuso"
+        android:title="Termo de Uso"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@mipmap/icon_camera"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"
+        android:title="" />
+
+</menu>

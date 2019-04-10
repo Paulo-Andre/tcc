@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paulo.tcc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".StarterServer"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo_oficial"
+        android:label="PetAD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoTitleBar">
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity android:name=".activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_cadastro_usuario" />
+        <activity android:name=".Activity_recuperasenha" />
+        <activity android:name=".Activity_termodeuso" />
+        <activity android:name=".activity_principal" />
+        <activity android:name=".Activity_TipoCompartilhamento" />
+        <activity android:name=".Activity_Doacao" />
+        <activity android:name=".Activity_Perdido" />
+        <activity android:name=".Activity_visto" />
+        <activity android:name=".activity_dados_postagem"></activity>
+    </application>
+
+</manifest>

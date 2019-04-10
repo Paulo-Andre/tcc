@@ -1,0 +1,4 @@
+#Thu Nov 15 16:19:54 BRST 2018
+base.0=/home/paulo/Documentos/tcc/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

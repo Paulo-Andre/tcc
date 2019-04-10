@@ -1,0 +1,45 @@
+<resources>
+    //tela Login
+    <string name="Criar_conta">Não tem uma conta? Crie uma agora!</string>
+    <string name="esqueceu_senha">       Esqueceu a senha?</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="entra">Entrar</string>
+    <string name="Login_realizado">LOGIN REALIZADO COM SUCESSO!!</string>
+    //tela de cadastro
+    <string name="termo">Termos de Uso</string>
+    <string name="Cadastra">Sim. Criar Conta!</string>
+    <string name="ja_tem_conta">Já tem conta?Entre já!</string>
+    <string name="termosdeuso">. Concorda com os termos de uso?</string>
+    // frases da tela de cadastro
+    <string name="cadastro_realizado">Cadastro realizado com sucesso!!</string>
+    //tela de recupera senha
+    <string name="Querlogar">Saber a Senha? Entre já!</string>
+    <string name="recuperasenha">Enviar Senha</string>
+    //tela Tipo de compartilhamento
+    <string name="doacao">Doação</string>
+    <string name="perdido">Desaparecido</string>
+    <string name="visto">Visto</string>
+    //tela de doação
+    <string name="raça">Qual a raça e sexo?</string>
+    <string name="idade">Qual a idade idade aproximada?</string>
+    <string name="cidade">Qual a cidade?</string>
+    <string name="estado">Qual o estado?</string>
+    <string name="bairro">Qual o bairro?</string>
+    <string name="telefone">Qual o telefone?</string>
+    <string name="observações">Observações:</string>
+    <string name="confirma">Confirma</string>
+    <string name="dados_salvo">Dados Salvados!!!</string>
+    //tela visto
+    <string name="Qual_rua">Em qual rua você o viu ?</string>
+    <string name="data">Qual a data?</string>
+    <string name="horario">Qual o harario?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //tela Tipo de compartilhamento
+
+
+</resources>

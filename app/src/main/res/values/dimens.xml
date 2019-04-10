@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="larguracaixas">345dp</dimen>
+    <dimen name="alturacaixas">45dp</dimen>
+    <dimen name="alturacaixascaixastextosimples">25dp</dimen>
+</resources>
